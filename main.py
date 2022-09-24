@@ -3,8 +3,9 @@ from telebot import types
 import telebot
 import os
 
+
 app = Flask(__name__)
-TOKEN = os.environ.get('TOKEN')
+TOKEN = '5416512263:AAFvQ7A8kR1AyqQN15IO4BWkOgqYaEzLBXA'
 bot = telebot.TeleBot(TOKEN)
 
 my_dict = {'AT-AT': 1.40, 'AT-BE': 1.40, 'AT-CH': 1.75, 'AT-CZ': 1.40, 'AT-DE': 1.40, 'AT-DK': 1.75, 'AT-ES': 1.46,
